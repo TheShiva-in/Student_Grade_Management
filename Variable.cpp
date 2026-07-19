@@ -7,4 +7,3 @@ int main()
     cout<<Roll<<endl;
     cout<<name;
     return 0;
-}

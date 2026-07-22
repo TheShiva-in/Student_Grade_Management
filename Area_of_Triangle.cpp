@@ -2,11 +2,16 @@
 using namespace std;
 int main()
 {
-    int height=5;
-    int length=10;
-    int width=15;
-    int area;
-    area=height*length*width;
+    float height;
+    cout<<"Enter the Height: ";
+    cin>>height;
+
+    float base;
+    cout<<"Enter the Base: ";
+    cin>>base;
+
+    float area;
+    area=0.5*(base*height);
     cout<<"Area of Triangle: "<<area;
     return 0;
 
